@@ -1,0 +1,36 @@
+<!-- Client-Side Scripting - Final Assignment 2022
+Ellen Woodward
+HTML for Part B - JS API -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Pokémon Library</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <br>
+        <h1>Pokémon Library</h1>
+        <h2>Library of Pokémon Characters using PokeAPI</h2>
+        <div  id="searchDivID">
+            <form>  
+                <b class="dropdown-heading"> Select Pokémon Type:  </b>  
+                <select id="dropdown" class="dropdown">  
+                <option> All </option>  
+                <option value="grass"> Grass </option>  
+                <option value="fire"> Fire </option>  
+                <option value="water"> Water </option>  
+                <option value="bug"> Bug </option> 
+                <option value="normal"> Normal </option>  
+                <option value="electric"> Electric </option>  
+                <option value="poison"> Poison </option>
+                <option value="ground"> Ground </option>  
+                <option value="fairy"> Fairy </option>     
+                </select>  
+            </form>  
+        </div> 
+        <div class="pokemon-container" id="pokemonDivID"></div>
+    </body>
+    <script src="script.js"></script>
+</html>

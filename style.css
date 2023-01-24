@@ -1,0 +1,66 @@
+/* Client-Side Scripting - Final Assignment 2022
+Ellen Woodward
+CSS for Part B- JS API */
+
+body {
+    background: rgb(102, 163, 209);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  .pokemon-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  
+  .pokemon-card{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  }
+  
+  .name{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .search-bar{
+    width: 200px;
+    margin: 25px auto;
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+  }
+
+  .img{
+    width: 150px;
+  }
+
+  .dropdown{
+    width: 100px;
+    margin: 25px 10px;
+    padding: 6px;
+    border: none;
+    font-size: 15px;
+    color: #5A5A5A;
+  }
+
+  .dropdown-heading{
+    font-size: 20px;
+  }
+  
+  .types{
+    text-transform: capitalize;
+  }
